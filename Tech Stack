@@ -1,0 +1,7 @@
+| Category | Tools |
+|---|---|
+| Language | Python |
+| ML Library | scikit-learn |
+| Data Handling | Pandas, NumPy |
+| Federated Simulation | Custom FedAvg implementation |
+| Visualization | Matplotlib, Seaborn |
