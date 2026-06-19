@@ -1,0 +1,6 @@
+
+- Simulate a realistic multi-client healthcare environment using a urinary disease dataset
+- Implement the **FedAvg (Federated Averaging)** algorithm to aggregate model updates from multiple clients
+- Train a classification model that can detect urinary disease presence from diagnostic features
+- Compare federated model performance against a traditional centralized baseline
+- Evaluate using accuracy, precision, recall, and F1-score
