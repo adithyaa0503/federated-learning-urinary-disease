@@ -1,0 +1,15 @@
+federated-learning-urinary-disease/
+│
+├── data/
+│   └── urinary_disease_dataset.csv
+├── notebooks/
+│   └── federated_learning_pipeline.ipynb
+├── src/
+│   ├── data_partition.py
+│   ├── local_training.py
+│   ├── fed_avg.py
+│   └── evaluate.py
+├── results/
+│   └── metrics_comparison.png
+├── requirements.txt
+└── README.md
