@@ -1,0 +1,3 @@
+Add Differential Privacy (DP) on top of FedAvg for stronger privacy guarantees
+- Experiment with FedProx for handling non-IID data more robustly
+- Deploy as a simple FastAPI service for inference
