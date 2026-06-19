@@ -1,0 +1,6 @@
+1. **Data Partitioning** — The dataset is split across `N` simulated clients to mimic real-world distributed hospital data (with realistic non-IID distribution).
+2. **Local Training** — Each client trains a local model on its own data partition.
+3. **Federated Aggregation** — A central server aggregates client model weights using FedAvg (weighted average based on local dataset sizes).
+4. **Global Model Update** — The aggregated global model is sent back to all clients for the next training round.
+5. **Iteration** — Steps 2–4 repeat over multiple communication rounds until convergence.
+6. **Evaluation** — Final global model is evaluated on a held-out test set.
