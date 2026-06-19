@@ -1,0 +1,12 @@
+# Clone the repository
+git clone https://github.com/adithyaa0503/federated-learning-urinary-disease.git
+cd federated-learning-urinary-disease
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the federated training pipeline
+python src/data_partition.py
+python src/local_training.py
+python src/fed_avg.py
+python src/evaluate.py
